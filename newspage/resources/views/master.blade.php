@@ -9,10 +9,10 @@
     <a href="/newspage/public">
       <img src="{{asset('logo.png')}}" alt="logo" id="logo">
     </a>
-    <div class="form">
+    <form class="form" method="post">
       <input type="text" id="searchBox" name="searchBox" size="40" maxlength="128">
       <input type="submit" name="search" value="Search">
-    </div>
+    </form>
     <h1>@yield('content')</h1>
 
   </body>
