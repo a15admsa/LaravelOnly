@@ -6,7 +6,7 @@
     <link href="{{ asset('style.css') }}" rel="stylesheet">
   </head>
   <body>
-    <a href="/newspage/public">
+    <a href="/laravel/public">
       <img src="{{asset('logo.png')}}" alt="logo" id="logo">
     </a>
     <form class="form" method="post">
