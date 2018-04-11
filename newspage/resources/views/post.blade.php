@@ -1,11 +1,9 @@
 @extends('master')
 
 @section('content')
-  <h1>All the names: </h1>
-
-  @if (count($people))
-    @foreach($people as $person)
-      <ul>{{$person}}</ul>
-    @endforeach
+  @if (count($post))
+      <p>Submitted by a15admsa on {{printf($post[0])}}</p>
+      <p>{{printf($post[1])}}</p> <br>
+      <b style="border: 1px solid black">All text is generated from Stack Exchange under the CC 3.0 licence.</b>
   @endif
 @stop
